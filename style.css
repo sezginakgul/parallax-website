@@ -9,6 +9,7 @@ body {
   font-weight: 400;
   height: 100%;
   line-height: 1.8rem;
+  min-width: fit-content;
 }
 
 .image1 {
@@ -17,17 +18,17 @@ body {
 }
 
 .image2 {
-  background-image: url(./img/bg1.jpg);
-  min-height: 80%;
-}
-
-.image3 {
   background-image: url(./img/bg2.jpg);
   min-height: 80%;
 }
 
-.image4 {
+.image3 {
   background-image: url(./img/bg3.jpg);
+  min-height: 80%;
+}
+
+.image4 {
+  background-image: url(./img/bg4.jpg);
   min-height: 80%;
 }
 
@@ -65,6 +66,7 @@ body {
   outline: 6px inset purple;
   outline-offset: 0.3rem;
   background-color: black;
+  /* line-height: 2rem; */
 }
 
 .medium {
